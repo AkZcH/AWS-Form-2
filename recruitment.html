@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recruitment - Mythical eSports Clan</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background-image"></div>
+    <a href="index.html"><img src="logo.jpg" alt="Mythical Clan Logo" class="recruitment-picture"></a>
+    <div class="form-container">
+        <h1>Recruitment Form</h1>
+        <form id="recruitmentForm">
+            <!-- Basic Information -->
+            <div class="form-group">
+                <label for="fullName">Full Name:</label>
+                <input type="text" id="fullName" name="fullName" placeholder="Enter your full name" required>
+            </div>
+            <div class="form-group">
+                <label for="username">In-game Username:</label>
+                <input type="text" id="username" name="username" placeholder="Enter your in-game username" required>
+            </div>
+            <div class="form-group">
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" placeholder="Enter your age" required>
+            </div>
+            <div class="form-group">
+                <label for="Apply for">Apply For:</label>
+                <select id="gender" name="gender" required>
+                    <option value="Executive">Executive</option>
+                    <option value="Team and Management">Team and Management</option>
+                    <option value="Support">Support</option>
+                    <option value="Media and Content Creation">Media and Content Creation</option>
+                    <option value="Marketing and Sponsorship">Marketing and Sponsorship</option>
+                    <option value="Event and Tournament Management">Event and Tournament Management</option>
+                    <option value="Operations and Logistics">Operations and Logistics</option>
+                    <option value="Finance and Legal">Finance and Legal</option>
+
+
+                    
+
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender" required>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                    <option value="preferNotToSay">Prefer not to say</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="location">Location (City, Country):</label>
+                <input type="text" id="location" name="location" placeholder="Enter your location" required>
+            </div>
+
+            <!-- Contact Information -->
+            <div class="form-group">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+            </div>
+            <div class="form-group">
+                <label for="discord">Discord ID:</label>
+                <input type="text" id="discord" name="discord" placeholder="Enter your Discord ID" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number (optional):</label>
+                <input type="text" id="phone" name="phone" placeholder="Enter your phone number">
+            </div>
+
+            <!-- Gaming Experience -->
+            <div class="form-group">
+                <label for="games">Which games do you primarily play?</label>
+                <input type="text" id="games" name="games" placeholder="Enter the games you play" required>
+            </div>
+            <div class="form-group">
+                <label for="hours">How many hours do you play per week?</label>
+                <input type="number" id="hours" name="hours" placeholder="Enter hours per week" required>
+            </div>
+            <div class="form-group">
+                <label for="experience">How long have you been playing these games?</label>
+                <input type="text" id="experience" name="experience" placeholder="Enter your experience duration" required>
+            </div>
+            <div class="form-group">
+                <label for="rank">What is your current rank/level in your main game?</label>
+                <input type="text" id="rank" name="rank" placeholder="Enter your rank/level" required>
+            </div>
+            <div class="form-group">
+                <label for="previousClans">Have you participated in any previous clans or gaming communities? If yes, please provide details.</label>
+                <textarea id="previousClans" name="previousClans" rows="3" placeholder="Enter details of previous clans" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="competitiveExperience">Do you have any competitive gaming experience (tournaments, leagues, etc.)? If yes, please provide details.</label>
+                <textarea id="competitiveExperience" name="competitiveExperience" rows="3" placeholder="Enter competitive gaming experience" required></textarea>
+            </div>
+
+            <!-- Technical Information -->
+            <div class="form-group">
+                <label for="internet">Do you have a stable internet connection?</label>
+                <select id="internet" name="internet" required>
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="platform">What gaming platform do you use?</label>
+                <input type="text" id="platform" name="platform" placeholder="Enter your gaming platform" required>
+            </div>
+            <div class="form-group">
+                <label for="hardware">Please list your gaming hardware specifications (e.g., PC specs, gaming peripherals):</label>
+                <textarea id="hardware" name="hardware" rows="3" placeholder="Enter your hardware specifications" required></textarea>
+            </div>
+
+            <!-- Personal Skills and Attributes -->
+            <div class="form-group">
+                <label for="role">What role do you prefer to play in your main game?</label>
+                <input type="text" id="role" name="role" placeholder="Enter your preferred role" required>
+            </div>
+            <div class="form-group">
+                <label for="leadership">Do you have any leadership or team management experience?</label>
+                <textarea id="leadership" name="leadership" rows="3" placeholder="Enter leadership or management experience" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="skills">What skills do you bring to a team environment?</label>
+                <textarea id="skills" name="skills" rows="3" placeholder="Enter your team skills" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="pressure">How do you handle pressure or high-stress situations in-game?</label>
+                <textarea id="pressure" name="pressure" rows="3" placeholder="Enter how you handle pressure" required></textarea>
+            </div>
+
+            <!-- Availability -->
+            <div class="form-group">
+                <label for="availability">What is your general availability for practices and matches?</label>
+                <input type="text" id="availability" name="availability" placeholder="Enter your availability" required>
+            </div>
+            <div class="form-group">
+                <label for="commitment">Are you able to commit to regular practice sessions and team meetings?</label>
+                <select id="commitment" name="commitment" required>
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                </select>
+            </div>
+
+            <!-- Additional Information -->
+            <div class="form-group">
+                <label for="whyJoin">Why do you want to join Mythical?</label>
+                <textarea id="whyJoin" name="whyJoin" rows="3" placeholder="Enter your reasons for joining" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="goals">What are your gaming goals and aspirations?</label>
+                <textarea id="goals" name="goals" rows="3" placeholder="Enter your gaming goals" required></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
